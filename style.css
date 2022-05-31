@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mar-left-60 {
+  margin-left: 60px;
+}
+
+.landing-page {
+  background-image: url("./images/homepage.webp");
+}
+
+.main-header {
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 240px;
+}
+
+.branding {
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 3px;
+  stroke: white;
+  fill: white;
+  height: 32px;
+  margin-top: -12px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-right: 18px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  width: 32px;
+  background-color: white;
+}
+
+.text-area {
+  color: white;
+  width: 35%;
+  /* margin-top: 270px; */
+}
+
+.tag {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 20px;
+}
+
+.heading-main {
+  font-size: 42px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.rewatch-button {
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: transparent;
+  border: solid 1px white;
+  color: white;
+}
+
+.rewatch-button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.page2 {
+  background-image: url("./images/page2.jpg");
+
+  padding-top: 300px;
+}
+.page3 {
+  background-image: url("./images/page3.jpg");
+  padding-top: 400px;
+}
+.page4 {
+  background-image: url("./images/page5.jpg");
+  padding-top: 400px;
+}
+
+.page5 {
+  background-image: url("./images/page4.jpg");
+  padding-top: 400px;
+}
+
+.page {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.margin-b-0 {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  background-color: black;
+}
+
+.copyright {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 24px;
+}
